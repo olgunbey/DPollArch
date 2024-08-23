@@ -1,0 +1,6 @@
+@DPoll.Presentation_HostAddress = http://localhost:5050
+
+GET {{DPoll.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

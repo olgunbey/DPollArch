@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Presentations\Commands\" />
+    <Folder Include="Presentations\EventHandlers\" />
+    <Folder Include="Presentations\Queries\" />
+    <Folder Include="Slides\EventHandlers\" />
+    <Folder Include="Slides\Queries\" />
+    <Folder Include="Users\Commands\" />
+    <Folder Include="Users\EventHandlers\" />
+    <Folder Include="Users\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DPoll.Domain\DPoll.Domain\DPoll.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
